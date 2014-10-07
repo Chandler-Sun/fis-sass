@@ -103,7 +103,7 @@ function rebuild( error ) {
 
     cp.spawn(
         process.platform === 'win32' ? 'node-gyp.cmd' : 'node-gyp', ['rebuild'], {
-        customFds: [0, 1, 2]
+        customFds: [0, 1, 2],stdio: 'inherit'
     })
     .on('exit', function(err) {
         if (err) {
