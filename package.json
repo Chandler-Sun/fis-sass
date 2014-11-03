@@ -27,5 +27,5 @@
     "step": "0.0.5",
     "nan": "~1.2.0"
   },
-  "bindingsCDN": "http://54.68.46.56/addons/fis-sass/0.1.17/"
+  "bindingsCDN": "http://devportal.misfit.com.s3.amazonaws.com/addons/fis-sass/0.1.17/"
 }
